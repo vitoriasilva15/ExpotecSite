@@ -1,0 +1,78 @@
+#cima{background-color: rgba(156, 81, 153, 0.6) ;
+    text-align: center; height:100px;}
+.texto{
+    font-family: Georgia, 'Times New Roman', Times, serif; color:rgb(107, 9, 107); font-size: 20px;
+}
+A:hover{color: rgb(171, 57, 182);}
+A:visited{color:rgb(79, 8, 107);}
+a:link {text-decoration: none;}
+A:link{color:violet;}
+A:active{color:rgb(173, 71, 182);}
+.opcoes{font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: dashed; color:aliceblue; font-size: 30px; }
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#e9b6e9; 
+    font-family: Arial, sans-serif;}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+th, td {
+    border: 1px solid #4d034d;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:rgb(155, 23, 167);
+}
+
+tr:nth-child(even) {
+    background-color: #e1b7e2;
+}
+
+tr:nth-child(odd) {
+    background-color: #b189b1;
+}
+.opcoes button{
+    border: 0;
+    background-color: rgb(102, 4, 102);
+    color: rgb(173, 137, 173);
+    border-radius: auto;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagem {
+    flex: 1; 
+    text-align: left;
+}
+
+.imagem img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+.texto2 {
+    color:#4d034d;
+    flex: 1; 
+    text-align: center;
+}

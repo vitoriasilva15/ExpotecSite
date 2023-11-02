@@ -1,0 +1,120 @@
+#cima{background-color: rgba(156, 81, 153, 0.6);
+    text-align: center; height:100px;}
+.opcoes{font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: dashed; color:aliceblue; font-size: 30px; }
+A:hover{color: rgb(171, 57, 182);}
+A:visited{color:rgb(79, 8, 107);}
+a:link {text-decoration: none;}
+A:link{color:violet;}
+A:active{color:rgb(173, 71, 182);}
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#e9b6e9; 
+    font-family: Arial, sans-serif;}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 50px;}
+
+
+
+h2 {
+    text-align: center;
+    color: #8A2BE2; }
+.input-group {
+    margin-bottom: 20px;}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #8A2BE2; }
+
+.input-group button {
+    background-color: #8A2BE2; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;}
+
+.input-group button:hover {
+    background-color: #b889ce;  }
+
+
+
+.container2{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        place-items: center;
+}
+    
+.palestrante {
+        background-color: none;
+        border: 1px solid none;
+        padding: 20px;
+        transition: transform 0.3s ease;
+}
+    
+.palestrante:hover {
+        transform: scale(1.05);
+}
+    
+.palestrante img {
+        max-width: 80%;
+        height: auto;
+        border-radius: auto;
+}
+    
+.palestrante-info {
+        display: none;
+        background-color:rgb(206, 151, 223);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        border-radius: auto;
+}
+    
+.palestrante:hover .palestrante-info {
+        display: flex;
+        opacity: 1;
+}
+
+.opcoes button{
+    border: 0;
+    background-color: rgb(102, 4, 102);
+    color: rgb(173, 137, 173);
+    border-radius: auto;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.opcoes h2 {
+    text-align: center;
+    color: #8A2BE2; }
